@@ -3,9 +3,10 @@
     height: 800px;
     width: 700px;
     background: white;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 1px 4px 20px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
     overflow: hidden;
+    
 }
 
 th,
@@ -33,17 +34,41 @@ tr.parent-row:hover {
     background-color: #eef4ff;
 }
 
+body{
+
+    background-size: cover;
+
+    backdrop-filter: blue(20px);
+
+  
+
+}
+
+h1{
+    position: absolute;
+    font-size: 50px;
+    font-variant: small-caps;
+    left: -80px;
+    top: -50px;
+    color: #000000;
+    background-color: #e9f2ff;
+
+    border-radius: 20px;
+
+    
+}
 
 #cont{
     
     position: relative;
 
-    left: 250px;
+    left: 290px;
 
 }
 
+
 #reass{
-    background-color: #0066ff;
+    background-color: #1ee743;
     
     border: none;
    
@@ -56,6 +81,8 @@ tr.parent-row:hover {
     height: 50px;
     
     left: 290px;
+    
+    top:1120px;
 
     margin-bottom: 30px;
 
